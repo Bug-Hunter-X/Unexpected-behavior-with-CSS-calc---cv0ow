@@ -1,0 +1,16 @@
+/* Correct usage of calc() */
+.element {
+  width: calc(100% - 20px);
+  height: calc(50vh + 10px);
+}
+
+/* Incorrect usage - missing spaces */
+/*.element {
+  width:calc(100%-20px); 
+  height:calc(50vh+10px);
+}*/
+
+/* Incorrect usage - incompatible units */
+/*.element {
+  width: calc(100% - 20em); /* Incorrect: mixing percentages and ems*/
+}*/
